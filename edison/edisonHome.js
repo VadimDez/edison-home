@@ -47,13 +47,13 @@ module.exports = {
                 sendValues(temperature, noise, darkness);
 
                 LCD.setCursor(0,0);
-                LCD.write('T: ' + temperature);
+                LCD.write('T:' + temperature);
 
                 LCD.setCursor(1,0);
-                LCD.write('S: ' + noise);
+                LCD.write('S:' + noise);
 
                 LCD.setCursor(1,9);
-                LCD.write('L: ' + darkness);
+                LCD.write('L:' + darkness);
             }, 60000);
         }
 
